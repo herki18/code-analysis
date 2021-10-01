@@ -71,7 +71,7 @@ indent_style = tab
 ##########################################
 [*.cs]
 # Default Severity for all .NET Code Style rules below
-dotnet_analyzer_diagnostic.severity = warning
+dotnet_analyzer_diagnostic.severity = error
 
 ##########################################
 # Code quality rules https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/
