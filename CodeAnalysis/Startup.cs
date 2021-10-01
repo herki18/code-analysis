@@ -16,6 +16,7 @@ namespace CodeAnalysis
 {
     public class Startup
     {
+        // Test
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
