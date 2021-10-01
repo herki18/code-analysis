@@ -18,10 +18,10 @@ namespace CodeAnalysis
     {
         public Startup(IConfiguration configuration)
         {
-            Configuration = configuration;
+            _Configuration = configuration;
         }
 
-        public IConfiguration Configuration { get; }
+        public IConfiguration _Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
