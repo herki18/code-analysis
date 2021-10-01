@@ -20,7 +20,7 @@ jobs:
     - name: Install dotnet format
       run: dotnet tool install -g dotnet-format
     - name: Run dotnet format
-      run: dotnet format
+      run: dotnet format -a
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
